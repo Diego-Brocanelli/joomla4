@@ -1,0 +1,16 @@
+{
+	"license" : [
+		"GPL-2+"
+	],
+	"require" : {
+		"joomla/di" : "1.0-beta2",
+		"joomla/compat" : "1.0-beta2"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Acme\\" : "src",
+			"Providers\\" : "src"
+		}
+	},
+	"minimum-stability" : "beta"
+}

@@ -1,0 +1,103 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "da23914da7a955e7b7b26b783338968a",
+    "packages": [
+        {
+            "name": "joomla/compat",
+            "version": "1.0-beta2",
+            "target-dir": "Joomla/Compat",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joomla/joomla-framework-compat.git",
+                "reference": "c59ff64cb3ee068c22aedfaab8fe4888f63376d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joomla/joomla-framework-compat/zipball/c59ff64cb3ee068c22aedfaab8fe4888f63376d3",
+                "reference": "c59ff64cb3ee068c22aedfaab8fe4888f63376d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.10"
+            },
+            "type": "joomla-package",
+            "autoload": {
+                "classmap": [
+                    "JsonSerializable.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Joomla Compat Package",
+            "homepage": "https://github.com/joomla/joomla-framework-compat",
+            "keywords": [
+                "compat",
+                "framework",
+                "joomla"
+            ],
+            "time": "2013-05-15 03:30:25"
+        },
+        {
+            "name": "joomla/di",
+            "version": "1.0-beta2",
+            "target-dir": "Joomla/DI",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joomla/joomla-framework-di.git",
+                "reference": "3716be42406e69e62e4842c60fa2c3c32d99233b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joomla/joomla-framework-di/zipball/3716be42406e69e62e4842c60fa2c3c32d99233b",
+                "reference": "3716be42406e69e62e4842c60fa2c3c32d99233b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.10"
+            },
+            "type": "joomla-package",
+            "autoload": {
+                "psr-0": {
+                    "Joomla\\DI": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Joomla DI Package",
+            "homepage": "https://github.com/joomla/joomla-framework-di",
+            "keywords": [
+                "container",
+                "dependency injection",
+                "di",
+                "framework",
+                "ioc",
+                "joomla"
+            ],
+            "time": "2013-08-15 23:31:20"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "beta",
+    "stability-flags": {
+        "joomla/di": 10,
+        "joomla/compat": 10
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
